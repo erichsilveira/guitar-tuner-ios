@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AD4CB0DEC279849D913CA7B /* AudioKitEX in Frameworks */ = {isa = PBXBuildFile; productRef = A846A3D64312CF945AB153DB /* AudioKitEX */; };
+		35FFB749A5FB99297E295A22 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8054563F9EBA450FE9DF366F /* Color+Extensions.swift */; };
+		3D12E1E28CC5892D254CBDBA /* TuningBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEB3658ABBE70A8D0DF23EE /* TuningBar.swift */; };
+		4134EF6110BBA369BCAFA208 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4556B82B60D02A652A4C8387 /* Assets.xcassets */; };
+		446423224DE4EBBFFCC10C51 /* AudioKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80CBDFE967D01A3823822C9 /* AudioKitManager.swift */; };
+		4467FDF22FD5DE76C3A77FF0 /* TunerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B9513189B91ED3C6266C3 /* TunerView.swift */; };
+		502D6C183ED2E2D9CE4E3AC2 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F0632EAFCE80DBCC5C3457 /* SplashScreenView.swift */; };
+		64861A8AC27390C65BB7521A /* TuningEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B796D08AD28973FDBA47B3 /* TuningEngine.swift */; };
+		795C3A2F747B46315D9CB800 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EF0254883FF69D9BD0CD58 /* Models.swift */; };
+		9D34B5E247E9D008929478EA /* GuitarTunerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4D21DBE8DBCD6DFDB4760B /* GuitarTunerApp.swift */; };
+		B866A01F97B7F85E8347B265 /* SplashAudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B05C6ABE8CC49E30A16357A /* SplashAudioManager.swift */; };
+		BCD612194EA696A7B3CAE02C /* SoundpipeAudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8336DAF6D6CA770E79230820 /* SoundpipeAudioKit */; };
+		DE6917B445BBFE09C965A245 /* TunerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD83411F6B47BE5F6150FA5 /* TunerViewModel.swift */; };
+		DF446B654EC777150DBCD81B /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = F30D0BDEDFF6EB629BAE2703 /* AudioKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1CD83411F6B47BE5F6150FA5 /* TunerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunerViewModel.swift; sourceTree = "<group>"; };
+		2B05C6ABE8CC49E30A16357A /* SplashAudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashAudioManager.swift; sourceTree = "<group>"; };
+		447B9513189B91ED3C6266C3 /* TunerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunerView.swift; sourceTree = "<group>"; };
+		4556B82B60D02A652A4C8387 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60B796D08AD28973FDBA47B3 /* TuningEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuningEngine.swift; sourceTree = "<group>"; };
+		61F0632EAFCE80DBCC5C3457 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		8054563F9EBA450FE9DF366F /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		9AEB3658ABBE70A8D0DF23EE /* TuningBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuningBar.swift; sourceTree = "<group>"; };
+		B80CBDFE967D01A3823822C9 /* AudioKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioKitManager.swift; sourceTree = "<group>"; };
+		C11F1BE2EB539603D84725DC /* GuitarTuneriOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuitarTuneriOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE4D21DBE8DBCD6DFDB4760B /* GuitarTunerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarTunerApp.swift; sourceTree = "<group>"; };
+		F4ECE5CCF684BC3DACF60A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F7EF0254883FF69D9BD0CD58 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C35888702F33B76D3DE3642E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF446B654EC777150DBCD81B /* AudioKit in Frameworks */,
+				0AD4CB0DEC279849D913CA7B /* AudioKitEX in Frameworks */,
+				BCD612194EA696A7B3CAE02C /* SoundpipeAudioKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31D0439B9CB12D54AA7BC235 = {
+			isa = PBXGroup;
+			children = (
+				78B541BC161ADB9C5D97B32E /* Source */,
+				E3C522A092D514C0484EB3BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78B541BC161ADB9C5D97B32E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4556B82B60D02A652A4C8387 /* Assets.xcassets */,
+				B80CBDFE967D01A3823822C9 /* AudioKitManager.swift */,
+				8054563F9EBA450FE9DF366F /* Color+Extensions.swift */,
+				CE4D21DBE8DBCD6DFDB4760B /* GuitarTunerApp.swift */,
+				F4ECE5CCF684BC3DACF60A81 /* Info.plist */,
+				F7EF0254883FF69D9BD0CD58 /* Models.swift */,
+				2B05C6ABE8CC49E30A16357A /* SplashAudioManager.swift */,
+				61F0632EAFCE80DBCC5C3457 /* SplashScreenView.swift */,
+				447B9513189B91ED3C6266C3 /* TunerView.swift */,
+				1CD83411F6B47BE5F6150FA5 /* TunerViewModel.swift */,
+				9AEB3658ABBE70A8D0DF23EE /* TuningBar.swift */,
+				60B796D08AD28973FDBA47B3 /* TuningEngine.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		E3C522A092D514C0484EB3BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C11F1BE2EB539603D84725DC /* GuitarTuneriOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		912CD528DDAE7A2876277306 /* GuitarTuneriOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11F1277FAE317F62CA730C1E /* Build configuration list for PBXNativeTarget "GuitarTuneriOS" */;
+			buildPhases = (
+				6C1F9D2FB8CC46BE798AEF1E /* Sources */,
+				A88AB6106FBD79A7C42D7B8D /* Resources */,
+				C35888702F33B76D3DE3642E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuitarTuneriOS;
+			packageProductDependencies = (
+				F30D0BDEDFF6EB629BAE2703 /* AudioKit */,
+				A846A3D64312CF945AB153DB /* AudioKitEX */,
+				8336DAF6D6CA770E79230820 /* SoundpipeAudioKit */,
+			);
+			productName = GuitarTuneriOS;
+			productReference = C11F1BE2EB539603D84725DC /* GuitarTuneriOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD69F2A6D4CEA586F500B75F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 80244E23F1D8B52E093B229B /* Build configuration list for PBXProject "GuitarTuner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 31D0439B9CB12D54AA7BC235;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				621744DBFEABF46A72426273 /* XCRemoteSwiftPackageReference "AudioKit" */,
+				A25039629A742733A48865D2 /* XCRemoteSwiftPackageReference "AudioKitEX" */,
+				FEAB7F07F069BC5F461E3414 /* XCRemoteSwiftPackageReference "SoundpipeAudioKit" */,
+			);
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				912CD528DDAE7A2876277306 /* GuitarTuneriOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A88AB6106FBD79A7C42D7B8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4134EF6110BBA369BCAFA208 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C1F9D2FB8CC46BE798AEF1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446423224DE4EBBFFCC10C51 /* AudioKitManager.swift in Sources */,
+				35FFB749A5FB99297E295A22 /* Color+Extensions.swift in Sources */,
+				9D34B5E247E9D008929478EA /* GuitarTunerApp.swift in Sources */,
+				795C3A2F747B46315D9CB800 /* Models.swift in Sources */,
+				B866A01F97B7F85E8347B265 /* SplashAudioManager.swift in Sources */,
+				502D6C183ED2E2D9CE4E3AC2 /* SplashScreenView.swift in Sources */,
+				4467FDF22FD5DE76C3A77FF0 /* TunerView.swift in Sources */,
+				DE6917B445BBFE09C965A245 /* TunerViewModel.swift in Sources */,
+				3D12E1E28CC5892D254CBDBA /* TuningBar.swift in Sources */,
+				64861A8AC27390C65BB7521A /* TuningEngine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		04BBE92EA7244FD315F8808D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = RPZKKFA56M;
+				INFOPLIST_FILE = Source/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guitartuner.ios;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18DE5506B369C2BD098B4F3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		75F0E8EF8DE1EB84AF86DCB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = RPZKKFA56M;
+				INFOPLIST_FILE = Source/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guitartuner.ios;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C6F047EB4F4B27EC75AC35A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11F1277FAE317F62CA730C1E /* Build configuration list for PBXNativeTarget "GuitarTuneriOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BBE92EA7244FD315F8808D /* Debug */,
+				75F0E8EF8DE1EB84AF86DCB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		80244E23F1D8B52E093B229B /* Build configuration list for PBXProject "GuitarTuner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6F047EB4F4B27EC75AC35A5 /* Debug */,
+				18DE5506B369C2BD098B4F3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		621744DBFEABF46A72426273 /* XCRemoteSwiftPackageReference "AudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.2;
+			};
+		};
+		A25039629A742733A48865D2 /* XCRemoteSwiftPackageReference "AudioKitEX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKitEX.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+		FEAB7F07F069BC5F461E3414 /* XCRemoteSwiftPackageReference "SoundpipeAudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/SoundpipeAudioKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8336DAF6D6CA770E79230820 /* SoundpipeAudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FEAB7F07F069BC5F461E3414 /* XCRemoteSwiftPackageReference "SoundpipeAudioKit" */;
+			productName = SoundpipeAudioKit;
+		};
+		A846A3D64312CF945AB153DB /* AudioKitEX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A25039629A742733A48865D2 /* XCRemoteSwiftPackageReference "AudioKitEX" */;
+			productName = AudioKitEX;
+		};
+		F30D0BDEDFF6EB629BAE2703 /* AudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 621744DBFEABF46A72426273 /* XCRemoteSwiftPackageReference "AudioKit" */;
+			productName = AudioKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DD69F2A6D4CEA586F500B75F /* Project object */;
+}
